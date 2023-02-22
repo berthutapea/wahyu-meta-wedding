@@ -22,7 +22,7 @@
 	function openInvitation() {
 		splashscreen.style.display = "none";
 		tutupHalaman.style.display = "block";
-		// audio.play()
+		audio.play()
 	}
 
 	openInvitationButton.addEventListener("click", openInvitation);
